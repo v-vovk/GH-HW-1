@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&subset=cyrillic,cyrillic-ext');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image-container {
+    position: relative;
+}
+
+img {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.overlay-desc {
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay-desc h1 {
+    color: white;
+    font-size: 48px;;
+    text-align: center;
+    font-weight: 800;
+}
+
+.button-container a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 100%;
+}
+
+.button-container {
+	margin: 10px;
+}
+
+button {
+	border: none;
+	background: #2693EE;
+    border-radius: 50px;
+	padding: 18px 45px;
+	margin: 10px;
+}
