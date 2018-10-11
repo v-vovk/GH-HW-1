@@ -1,3 +1,5 @@
 
 .DS_Store
 lesson-1/task-1/.idea/workspace.xml
+*.iml
+*.xml
